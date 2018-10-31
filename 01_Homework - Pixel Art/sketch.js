@@ -1,25 +1,14 @@
 function setup() {
   // Create the canvas
   createCanvas(800, 600);
-  background(250);
+  background(300);
 
 //ShapeOutline
 
 fill(0);
 
-
  // A rectangle
- rect(395, 50, 30, 30);
- // A rectangle
- rect(364, 50, 30, 30);
- // A rectangle
- rect(333, 50, 30, 30);
- // A rectangle
- rect(302, 50, 30, 30);
- // A rectangle
- rect(271, 50, 30, 30);
- // A rectangle
- rect(240, 50, 30, 30);
+ rect(240, 50, 186, 30);
 
  // A rectangle
  rect(240, 81, 30, 30);
@@ -71,30 +60,10 @@ fill(0);
  rect(550, 205, 30, 30);
 
  // A rectangle
- rect(85, 236, 30, 30);
- // A rectangle
- rect(85, 267, 30, 30);
- // A rectangle
- rect(85, 298, 30, 30);
- // A rectangle
- rect(85, 329, 30, 30);
- // A rectangle
- rect(85, 360, 30, 30);
- // A rectangle
- rect(85, 391, 30, 30);
+ rect(85, 236, 30, 186);
 
  // A rectangle
- rect(550, 236, 30, 30);
- // A rectangle
- rect(550, 267, 30, 30);
- // A rectangle
- rect(550, 298, 30, 30);
- // A rectangle
- rect(550, 329, 30, 30);
- // A rectangle
- rect(550, 360, 30, 30);
- // A rectangle
- rect(550, 391, 30, 30);
+ rect(550, 236, 30, 186);
 
  // A rectangle
  rect(116, 391, 30, 30);
@@ -116,21 +85,8 @@ fill(0);
  rect(457, 360, 30, 30);
 
  // A rectangle
- rect(209, 360, 30, 30);
- // A rectangle
- rect(240, 360, 30, 30);
- // A rectangle
- rect(271, 360, 30, 30);
- // A rectangle
- rect(302, 360, 30, 30);
- // A rectangle
- rect(333, 360, 30, 30);
- // A rectangle
- rect(364, 360, 30, 30);
- // A rectangle
- rect(395, 360, 30, 30);
- // A rectangle
- rect(426, 360, 30, 30);
+ rect(209, 360, 248, 30);
+
 
  // A rectangle
  rect(271, 391, 30, 30);
@@ -162,27 +118,8 @@ fill(0);
  // A rectangle
  rect(178, 484, 30, 30);
 
-
  // A rectangle
- rect(178, 515, 30, 30);
- // A rectangle
- rect(209, 515, 30, 30);
- // A rectangle
- rect(240, 515, 30, 30);
- // A rectangle
- rect(271, 515, 30, 30);
- // A rectangle
- rect(302, 515, 30, 30);
- // A rectangle
- rect(333, 515, 30, 30);
- // A rectangle
- rect(364, 515, 30, 30);
- // A rectangle
- rect(394, 515, 30, 30);
- // A rectangle
- rect(425, 515, 30, 30);
- // A rectangle
- rect(456, 515, 30, 30);
+ rect(178, 515, 310, 30);
 
  // A rectangle
  rect(488, 453, 30, 30);
@@ -287,12 +224,4 @@ stroke(44, 250, 100, 200);
  rect(240, 329, 30, 30);
  // A rectangle
  rect(395, 329, 30, 30);
-
-
-
-
-
-
-
-
 }

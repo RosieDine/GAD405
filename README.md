@@ -35,3 +35,4 @@ Discussion on ES6 https://github.com/i3games/jsopinion
 Javascript Semi-Standard Style https://github.com/Flet/semistandard  
 
 https://www.futurelearn.com/courses/creative-coding  
+//

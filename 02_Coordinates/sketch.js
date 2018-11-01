@@ -1,6 +1,3 @@
-//DAT405 / GAD405
-//02_Coordinates 
-
 //Initialization function
 function setup() {
   //Set the size of rendering window - pixels

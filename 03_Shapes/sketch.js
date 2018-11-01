@@ -1,3 +1,4 @@
+//Initialization function
 function setup() {
   // Create the canvas
   createCanvas(720, 400);

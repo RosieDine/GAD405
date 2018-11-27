@@ -9,6 +9,8 @@ function setup(){
 createCanvas(594, 841);
 stroke(0);
 
+}
+
 //Rendering function
 function draw(){
 if (mouseIsPressed) {

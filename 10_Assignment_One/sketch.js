@@ -4,7 +4,7 @@ var cells = [];
 //Initalisation function
 function setup() {
 	//Sets the size of the rendering window
-	createCanvas(541, 841);
+	createCanvas(594, 841);
 	//Cell (capitalised) is the name of the constructor function that makes cell objects
 	cells.push(new Cell());
 	//Cells (plural) is the array holding a list of cell objects.
@@ -61,7 +61,7 @@ function Cell(pos, r, c, dx, dy) {
 	this.mitosis = function() {
 		//Before the new cell is made, the position will be altered randomly based on the radius variable
 		this.pos.x += random(-this.r, this.r);
-		this.c = color(random(100, 255), random(100, 255), 0, random(100, 255));
+		this.c = color(random(255), random(255), random(255), random(255));
 		//A new cell will be made at a specific position, with radius multiplied by 0.8 and the variable assigned colour
 		var cell = new Cell(this.pos, this.r * 0.8, this.c);
 		return cell;
@@ -69,13 +69,13 @@ function Cell(pos, r, c, dx, dy) {
 
 	this.move = function() {
 		this.pos.add(this.dx, this.dy);
-		//The above code reverses the direction of the ellipses if they exceed the boundry of the width
+		//The code below reverses the direction of the ellipses if they exceed the boundry of the width
 		if (this.pos.x > width - this.r / 2) {
 			this.dx = random(-1, -0.1);
 		} else if (this.pos.x < 0 + this.r / 2) {
 			this.dx = 1;
 		}
-		//The above code reverses the direction of the ellipses if they exceed the boundry of the height
+		//The code below reverses the direction of the ellipses if they exceed the boundry of the height
 		else if (this.pos.y > height - this.r / 2) {
 			this.dy = random(-1, -0.1);
 		} else if (this.pos.y < 0 + this.r / 2) {

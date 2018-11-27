@@ -1,6 +1,9 @@
 //This array is a list of data. In this case, "cells". It is identified by an index number representing its position
 var cells = [];
 
+//An alert will appear on screen and instruct the user on what to do in order to interact with the sketch code
+alert("Get ready and click on the bubbles! When you're finished, refresh the page and start the fun all over again! Press 'OK' to begin!");
+
 //Initalisation function
 function setup() {
 	//Sets the size of the rendering window
@@ -14,7 +17,7 @@ function setup() {
 function draw() {
 	background(80);
 	for (var i = 0; i < cells.length; i++) {
-		cells[i].move();  
+		cells[i].move();
 		cells[i].show();
 	}
 }
